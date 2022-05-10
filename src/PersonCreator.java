@@ -8,9 +8,20 @@ public class PersonCreator {
         System.out.println(Person01.getHeight());
         System.out.println(Person01.getWeight());
 
+        Person01.growOlder();
+
+        System.out.println(Person01.getName());
+        System.out.println(Person01.getAge());
+        System.out.println(Person01.getHeight());
+        System.out.println(Person01.getWeight());
+
+
+        /*
         System.out.println(Person02.getName());
         System.out.println(Person02.getAge());
         System.out.println(Person02.getHeight());
         System.out.println(Person02.getWeight());
+
+         */
     }
 }

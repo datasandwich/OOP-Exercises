@@ -43,4 +43,9 @@ public class Person {
         this.weight = weight;
     }
 
+    public void growOlder(){
+        this.age+=1;
+        this.height-=1;
+        this.weight-=0.5;
+    }
 }
